@@ -6,4 +6,8 @@ public enum Lifts {
     Lifts(int numberOfLifts){
         this.numberOfLifts = numberOfLifts;
     }
+
+    public int getNumberOfLifts() {
+        return numberOfLifts;
+    }
 }
